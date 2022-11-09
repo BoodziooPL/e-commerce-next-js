@@ -2,7 +2,7 @@ import Image from 'next/image'
 import phone from '../assets/phone.png'
 function header() {
   return (
-    <div className=' bg-slate-300 rounded-lg h-[20rem] relative overflow-hidden'>
+    <div className=' bg-slate-200 rounded-lg h-[20rem] relative overflow-hidden'>
       <div className='absolute -right-52 top-0 xl:right-48 xl:-top-12 '>
         <Image src={phone} />
       </div>
