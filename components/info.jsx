@@ -8,7 +8,7 @@ function info() {
   return (
     <div className=' bg-slate-300 h-[5rem] rounded-xl flex items-center md:h-[7rem]'>
       <div className='flex w-[100%] justify-around lg:text-4xl text-gray-700 text-lg'>
-        <div className='flex items-center'>
+        <div className='flex items-center text-green-700'>
           <IoIosContact className='text-4xl md:text-6xl' />
           <p>Profesional support</p>
         </div>
@@ -16,7 +16,7 @@ function info() {
           <TbTruckDelivery className='text-4xl md:text-6xl' />
           <p>24h Shipping</p>
         </div>
-        <div className='flex items-center'>
+        <div className='flex items-center text-green-700'>
           <TbTruckReturn className='text-4xl md:text-6xl' />
           <p>Free Returns</p>
         </div>
