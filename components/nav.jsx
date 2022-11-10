@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrClose } from 'react-icons/gr'
 import { AiFillApple } from 'react-icons/ai'
-import Image from 'next/image'
-import Logo from '../assets/shopping.png'
 import Navmodule from './navmodule'
 
 function nav() {
