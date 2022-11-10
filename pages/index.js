@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import Nav from '../components/nav'
 import Header from '../components/header'
 import InfoBar from '../components/info'
@@ -16,19 +16,19 @@ export default function Home() {
 
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className=' bg-slate-200 mx-2 mt-2  h-[15vh]'>
+      <div className=' bg-slate-200 mx-1 h-[15vh]'>
         <Nav />
       </div>
-      <div className='px-2 py-2'>
+      <div className='px-1 '>
         <Header />
       </div>
-      <div className='px-2 py-1'>
+      <div className='px-1'>
         <InfoBar />
       </div>
-      <div className='px-2 py-1'>
+      <div className='px-1'>
         <Product />
       </div>
-      <div className='px-2 py-1'>
+      <div className='px-1 py-1'>
         <Product />
       </div>
     </div>
