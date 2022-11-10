@@ -1,90 +1,40 @@
 import Macbook from '../assets/macbook.png'
-import Beats from '../assets/beats.png'
-import Iphone from '../assets/iphone.png'
-import Powerbank from '../assets/powerbank.png'
 import Image from 'next/image'
 
 function product() {
   return (
-    <div className=' bg-slate-200 rounded-xl flex-col md:flex md:flex-row py-2 px-2 md:flex-wrap justify-center'>
-      <div>
-        <div className=' bg-green-800 md:w-[45vw] rounded-xl mx-1 my-2 flex justify-center relative'>
-          <div className='h-[100%]'>
-            <Image src={Macbook} />
-          </div>
-
-          <div className='absolute w-[100%] h-[100%] rounded-xl text-center flex-col center z-10 bg-gray-900 bg-opacity-50'>
-            <h1 className='text-[2.5rem] sm:mt-[20%] md:text-[4rem] md:mt-3 xl:text-[5rem] xl:mt-[10%] font-black'>
-              Hello
-            </h1>
-            <p className='font-semibold w-[80%] text-xl mx-auto '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem esse laborum eligendi magnam.
-            </p>
-            <button className='bg-red-500 rounded-xl whitespace-nowrap font-semibold py-1 px-1 mt-5'>
-              <a href='#'>Checkout</a>
-            </button>
-          </div>
+    <div className='flex-col md:flex md:flex-row gap-1 '>
+      <div className='relative bg-slate-300 mt-2'>
+        <div className='relative z-0 overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 opacity-50 '>
+          <Image src={Macbook} />
+        </div>
+        <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
+          <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
+          <button className='bg-red-400 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white'>
+            <a href='#'>Click Me</a>
+          </button>
         </div>
       </div>
-      <div>
-        <div className=' bg-green-800 md:w-[45vw] rounded-xl mx-1 my-2 flex justify-center relative'>
-          <div className='h-[50%]w-[577px] h-[433px]'>
-            <Image src={Beats} className='w-[577px] h-[433px] relative' />
-          </div>
-
-          <div className='absolute w-[100%] h-[100%] rounded-xl text-center flex-col center z-10 bg-gray-900 bg-opacity-50'>
-            <h1 className='text-[2.5rem] sm:mt-[20%] md:text-[4rem] md:mt-3 xl:text-[5rem] xl:mt-[10%] font-black'>
-              Hello
-            </h1>
-            <p className='font-semibold w-[80%] text-xl mx-auto '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem esse laborum eligendi magnam.
-            </p>
-            <button className='bg-red-500 rounded-xl whitespace-nowrap font-semibold py-1 px-1 mt-5'>
-              <a href='#'>Checkout</a>
-            </button>
-          </div>
+      <div className='relative bg-slate-300 mt-2'>
+        <div className='relative z-0 overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 opacity-50 '>
+          <Image src={Macbook} />
+        </div>
+        <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
+          <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
+          <button className='bg-red-400 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white'>
+            <a href='#'>Click Me</a>
+          </button>
         </div>
       </div>
-      <div>
-        <div className=' bg-green-800 md:w-[45vw] rounded-xl mx-1 my-2 flex justify-center relative'>
-          <div className='h-[100%]'>
-            <Image src={Powerbank} className='w-[30rem]' />
-          </div>
-
-          <div className='absolute w-[100%] h-[100%] rounded-xl text-center flex-col center z-10 bg-gray-900 bg-opacity-50'>
-            <h1 className='text-[2.5rem] sm:mt-[20%] md:text-[4rem] md:mt-3 xl:text-[5rem] xl:mt-[10%] font-black'>
-              Hello
-            </h1>
-            <p className='font-semibold w-[80%] text-xl mx-auto '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem esse laborum eligendi magnam.
-            </p>
-            <button className='bg-red-500 rounded-xl whitespace-nowrap font-semibold py-1 px-1 mt-5'>
-              <a href='#'>Checkout</a>
-            </button>
-          </div>
+      <div className='relative bg-slate-300 mt-2'>
+        <div className='relative z-0 overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 opacity-50 '>
+          <Image src={Macbook} />
         </div>
-      </div>
-      <div>
-        <div className=' bg-green-800 md:w-[45vw] rounded-xl mx-1 my-2 flex justify-center relative'>
-          <div className='h-[100%]'>
-            <Image src={Iphone} className='w-[30rem]' />
-          </div>
-
-          <div className='absolute w-[100%] h-[100%] rounded-xl text-center flex-col center z-10 bg-gray-900 bg-opacity-50'>
-            <h1 className='text-[2.5rem] sm:mt-[20%] md:text-[4rem] md:mt-3 xl:text-[5rem] xl:mt-[10%] font-black'>
-              Hello
-            </h1>
-            <p className='font-semibold w-[80%] text-xl mx-auto '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem esse laborum eligendi magnam.
-            </p>
-            <button className='bg-red-500 rounded-xl whitespace-nowrap font-semibold py-1 px-1 mt-5'>
-              <a href='#'>Checkout</a>
-            </button>
-          </div>
+        <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
+          <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
+          <button className='bg-red-400 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-6'>
+            <a href='#'>Click Me</a>
+          </button>
         </div>
       </div>
     </div>
