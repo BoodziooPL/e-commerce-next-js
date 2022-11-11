@@ -10,7 +10,7 @@ function product() {
         </div>
         <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
           <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
-          <button className='bg-red-300 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-6'>
+          <button className='bg-red-300 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-4'>
             <a href='#'>Click Me</a>
           </button>
         </div>
@@ -21,7 +21,7 @@ function product() {
         </div>
         <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
           <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
-          <button className='bg-red-300 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-6'>
+          <button className='bg-red-300 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-4'>
             <a href='#'>Click Me</a>
           </button>
         </div>
@@ -32,7 +32,7 @@ function product() {
         </div>
         <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6 '>
           <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
-          <button className='bg-red-300 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-6'>
+          <button className='bg-red-300 py-1 px-6 sm:px-8 sm:py-2 rounded-2xl text-xl font-bold text-white md:px-4'>
             <a href='#'>Click Me</a>
           </button>
         </div>

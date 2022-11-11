@@ -56,7 +56,7 @@ function contact() {
             id='message'></textarea>
           <br />
           <input
-            className='w-[50%] py-2 px-2 rounded-xl bg-red-300 md:py-1 '
+            className='w-[50%] py-2 px-2 rounded-xl bg-red-300 md:py-1 font-semibold'
             type='submit'
             value='Submit'
           />
