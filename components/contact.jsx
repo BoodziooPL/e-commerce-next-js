@@ -11,8 +11,8 @@ function contact() {
       className='bg-slate-200 pb-2 md:flex md:flex-row md:items-center md:justify-around flex-col text-2xl text-gray-700 lg:text-3xl'>
       <div>
         <div className='flex-col text-center'>
-          <div className='flex justify-center'>
-            <IoIosContacts className='w-10 h-10' />
+          <div className='flex justify-center text-5xl'>
+            <IoIosContacts />
           </div>
           <h3>Contact:</h3>
           <div className='flex justify-center items-center space-x-2'>
@@ -50,7 +50,7 @@ function contact() {
             name='email'
           />
           <textarea
-            className='w-[100%] h-[4rem] md:h-[2.5rem] rounded-lg placeholder:text-center'
+            className='w-[100%] h-[4rem] md:h-[6rem] rounded-lg placeholder:text-center'
             name='message'
             placeholder='Write something...'
             id='message'></textarea>
