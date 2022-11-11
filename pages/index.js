@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Contact from '../components/contact'
 import Nav from '../components/nav'
 import Header from '../components/header'
 import InfoBar from '../components/info'
@@ -30,6 +30,9 @@ export default function Home() {
       </div>
       <div className='px-1 py-1'>
         <Product />
+      </div>
+      <div className='px-1 py-1'>
+        <Contact />
       </div>
     </div>
   )

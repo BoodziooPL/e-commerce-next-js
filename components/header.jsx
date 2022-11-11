@@ -16,7 +16,7 @@ function header() {
         <h1 className='text-[3.2rem] font-black text-white md:text-[4.6rem] lg:text-[5rem]'>
           Header
         </h1>
-        <button className='bg-red-400 text-white font-semibold rounded-full whitespace-nowrap px-5 py-3 text-[1.6rem] mt-5 md:absolute md:left-[60%] md:top-[60%] md:-translate-x-1/2 md:-translate-y-1/2 lg:left-[45%] lg:top-[65%] xl:top-[70%] xl:left-[40%] xl:-translate-y-3/4 hover:bg-transparent hover:border-red-400 border-solid hover:border-4'>
+        <button className='bg-red-300 text-white font-semibold rounded-full whitespace-nowrap px-5 py-3 text-[1.6rem] mt-5 md:absolute md:left-[60%] md:top-[60%] md:-translate-x-1/2 md:-translate-y-1/2 lg:left-[45%] lg:top-[65%] xl:top-[70%] xl:left-[40%] xl:-translate-y-3/4 hover:bg-transparent hover:border-red-400 border-solid hover:border-4'>
           Buy it now
         </button>
       </div>

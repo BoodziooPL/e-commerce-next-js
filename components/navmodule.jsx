@@ -17,7 +17,7 @@ function navmodule() {
           <a href='#'>Promotions</a>
         </li>
         <li className='h-10'>
-          <a href='#'>Contact</a>
+          <a href='#contact'>Contact</a>
         </li>
       </ul>
     </div>
