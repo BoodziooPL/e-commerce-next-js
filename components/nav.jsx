@@ -4,7 +4,7 @@ import { GrClose } from 'react-icons/gr'
 import { AiFillApple } from 'react-icons/ai'
 import Navmodule from './navmodule'
 
-function nav() {
+function Nav() {
   const [active, setActive] = useState(false)
   const handlerMenu = () => {
     setActive(!active)
@@ -49,4 +49,4 @@ function nav() {
   )
 }
 
-export default nav
+export default Nav

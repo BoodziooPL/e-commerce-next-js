@@ -6,7 +6,7 @@ function product() {
     <div className='flex-col md:flex md:flex-row gap-1 '>
       <div className='relative bg-slate-300 mt-2'>
         <div className='relative z-0 overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 opacity-50 '>
-          <Image src={Macbook} />
+          <Image src={Macbook} alt='macbook' />
         </div>
         <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
           <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
@@ -17,7 +17,7 @@ function product() {
       </div>
       <div className='relative bg-slate-300 mt-2'>
         <div className='relative z-0 overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 opacity-50 '>
-          <Image src={Macbook} />
+          <Image src={Macbook} alt='macbook' />
         </div>
         <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6'>
           <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
@@ -28,7 +28,7 @@ function product() {
       </div>
       <div className='relative bg-slate-300 mt-2'>
         <div className='relative overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 opacity-50'>
-          <Image src={Macbook} />
+          <Image src={Macbook} alt='macbook' />
         </div>
         <div className='absolute top-[75%] left-[50%] -translate-x-2/4 -translate-y-3/4 text-gray-800 text-center space-y-6 '>
           <p className='text-3xl font-semibold '>Lorem Ipsum Dolor</p>
