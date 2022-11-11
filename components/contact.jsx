@@ -10,7 +10,7 @@ function contact() {
       id='contact'
       className='bg-slate-200 pb-2 md:flex md:flex-row md:items-center md:justify-around flex-col text-2xl text-gray-700 lg:text-3xl'>
       <div>
-        <div className='flex-col text-center'>
+        <div className='flex-col text-center space-y-2'>
           <div className='flex justify-center text-5xl'>
             <IoIosContacts />
           </div>
